@@ -1,8 +1,22 @@
 aid: catalog
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/catalog.png
 name: Catalog
-description: Catalog is a company surfaced as a portfolio company of dcvc, kindred-ventures, multicoin-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Catalog was a music distribution and direct-to-fan platform that let independent musicians
+  sell digital downloads while keeping 100% of earnings, collect fan emails directly, split revenue with
+  collaborators, run referral rewards, and control private, public, or scheduled releases with zero marketplace
+  fees. The company has ceased operations - its homepage now shows a closure announcement - and it never
+  published a public developer API, SDKs, or technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/catalog/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +26,19 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-operating-status: defunct
+x-operating-status-source: https://fin.catalog.works/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Music
+- Music Distribution
+- Direct-to-Fan
+- Independent Artists
+- Media
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +48,11 @@ maintainers:
 common:
 - type: Website
   url: https://catalog.works/
+- type: Blog
+  name: Liner Notes
+  url: https://notes.catalog.works/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
