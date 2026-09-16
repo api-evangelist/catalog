@@ -41,7 +41,7 @@ x-operating-status: defunct
 x-operating-status-source: https://fin.catalog.works/
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Music
@@ -67,3 +67,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status: defunct
